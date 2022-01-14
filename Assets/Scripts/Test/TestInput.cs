@@ -8,7 +8,7 @@ public class TestInput : MonoBehaviour
 {
     private void Awake()
     {
-      //this
+      //this tes
         UnityEngine.InputSystem.PlayerInput comp = gameObject.GetComponent<UnityEngine.InputSystem.PlayerInput>();
         int count = comp.actionEvents.Count;
         UnityEngine.InputSystem.PlayerInput.ActionEvent actionEvent = comp.actionEvents.ToArray().First(
